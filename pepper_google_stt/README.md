@@ -5,9 +5,8 @@
 ```
 $ cd /path/to/nao-grape-sample-web-api
 $ pyenv local 2.7.11
-$ virtualenv .venv
 $ rm -rf pepper_google_stt/lib/*
-$ .venv/bin/pip install -r requirements.txt --target pepper_google_stt/lib --no-compile
+$ pip install -r requirements.txt --target pepper_google_stt/lib --no-compile
 ```
 
 ### Open with Choregraphe
